@@ -12,4 +12,4 @@ def my_all?(collection)
   block_return_values.include?(false) ? false : true
 end
 
-my_all([1,2,3]) {|1| 1 < 2}
+my_all([1,2,3]) {|i| 1 < 2}
